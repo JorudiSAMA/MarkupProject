@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- META TAGS -->
+  <meta name="description" content="Kendrick Lamar's official website" />
+  <meta name="keywords" content="kendrick, lamar, kendrick lamar, rap, music, hiphop, hip hop, damn." />
+  <meta name="copyright" content="kendricklamar.com" />
+  <meta name="generator" content="Visual Studio Code" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+  <!--CSS'S COMUNES EN TODAS LAS PAGINAS-->
+  <link href="../css/reset.css" rel="stylesheet" type="text/css">
+  <link href="../css/navbar.css" rel="stylesheet" type="text/css">
+  <link href="../css/footer.css" rel="stylesheet" type="text/css">
+
+  <!--CSS'S PROPIOS DE ESTA PAGINA-->
+  <link href="../css/tour.css" rel="stylesheet" type="text/css">
+
+  <title>KENDRICK LAMAR</title>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="./kendrick.html">KENDRICK</a>
+      </li>
+      <li>
+        <a href="./discography.html">DISCOGRAPHY</a>
+      </li>
+      <li>
+        <a href="./video.html">VIDEO</a>
+      </li>
+      <li>
+        <a href="./tour.html" class="active">DAMN TOUR</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <div class="page-inner">
+
+      <div class="description">
+        <h1>DAMN TOUR GIVEAWAY</h1>
+        <p>
+          We are giving away 100 free tickets for the DAMN TOUR in Europe!
+          <br> If you want to participate you just have to fill this formulary and
+          <br> you'll had a chance to win a free ticket for the hilarious tour by Kendrick.
+          <br> Good luck!
+          <br> PD: If you have any question,
+          <a style="color: #ffcdd2" href="mailto:kendricklamar@info.com?Subject=Question">Contact us</a>.
+        </p>
+      </div>
+
+      <form id="form" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi">
+        <!-- EMAIL DESTINATARI: -->
+        <input type="hidden" name="recipient" value="kendricklamar@form.com" />
+
+        <div class="entry">
+          *First Name:
+          <br>
+          <input type="text" class="text" name="name" placeholder="First Name" maxlength="25" autofocus required/>
+        </div>
+        <div class="entry">
+          *First Surname:
+          <br>
+          <input type="text" class="text" name="fsurname" placeholder="First Surname" maxlength="50" required/>
+        </div>
+        <div class="entry">
+          Second Surname:
+          <br>
+          <input type="text" class="text" name="ssurnae" placeholder="Second Surname" maxlength="50" />
+        </div>
+        <div class="entry">
+          Gender:
+          <br>
+          <div class="entry">
+            <input type="radio" name="gender" value="male" />Male</div>
+          <div class="entry">
+            <input type="radio" name="gender" value="male" />Female</div>
+          <div class="entry">
+            <input type="radio" name="gender" value="male" />Other</div>
+        </div>
+
+        <div class="entry">
+          *Email:
+          <br>
+          <input type="email" class="text" name="email" maxlength="25" required/>
+        </div>
+
+        <div class="entry">
+          *Phone number:
+          <br>
+          <input type="text" class="text" name="number" pattern="[0-9]{9}" maxlength="9" required/>
+        </div>
+
+        <div class="entry">
+          *Country:
+          <br>
+          <input list="countries" type="text" class="text" name="country" required/>
+          <datalist id="countries">
+            <option value="US"></option>
+            <option value="Canda"></option>
+            <option value="Spain"></option>
+            <option value="France"></option>
+            <option value="UK"></option>
+            <option value="Italy"></option>
+            <option value="Germany"></option>
+          </datalist>
+        </div>
+
+        <div class="entry">
+          Do u love kendrick?:
+          <br>
+          <select name="love" form="form">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Maybe">Maybe</option>
+          </select>
+        </div>
+
+        <div class="entry">
+          *Desire rate (0 to 10):
+          <br>
+          <input type="number" class="text" name="desire" min="0" max="10" required/>
+        </div>
+
+        <div class="entry">
+          Why do you want to assist?:
+          <br>
+          <textarea class="text" name "reasons" rows="5" cols="50" maxlength="250"></textarea>
+        </div>
+
+        <input type="submit" id="submit" value="SUBMIT" />
+
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      KENDRICK LAMAR
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://twitter.com/kendricklamar">
+              <img src="../svg/twitter.svg">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/kendricklamar/">
+              <img src="../svg/facebook.svg">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kendricklamar">
+              <img src="../svg/instagram.svg">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/KendrickLamarVEVO">
+              <img src="../svg/youtube.svg">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url('../fonts/PlayfairDisplay.ttf');
+}
+
+@font-face {
+    font-family: 'myFont-bold';
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+}
+
+.wrapper {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.container1 {
+    max-width: 100%;
+    height: 700px;
+    background: linear-gradient(to left, #161616, #262626);
+}
+
+.container2 {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #b71c1c, #b44a4a);
+}
+
+.container_img {
+    height: inherit;
+    width: 50%;
+    float: left;
+}
+
+.container_txt {
+    height: inherit;
+    width: 50%;
+    float: left;
+    padding: 80px;
+}
+
+.container_txt h2,
+.container_txt h1,
+.container_txt p,
+.container_txt ul {
+    line-height: 150%;
+    font-family: 'myFont';
+    letter-spacing: 5px;
+}
+
+.container_txt h2 {
+    font-size: 80px;
+    font-family: 'myFont-bold';
+    color: #ef9a9a;
+}
+
+.container_txt h1 {
+    font-size: 50px;
+    color: #ffcdd2;
+}
+
+.container_txt p,
+.container_txt ul {
+    font-style: italic;
+    font-size: 17px;
+    color: #ffebee;
+    letter-spacing: 1.5px;
+}
+
+.container_txt ul {
+    list-style-type: circle;
+    line-height: 250%;
+}
+
+.container_img img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: 650px;
+    top: 0;
+    margin-top: 50px;
+}
+
+input #submit {
+    font-size: 20px;
+}
