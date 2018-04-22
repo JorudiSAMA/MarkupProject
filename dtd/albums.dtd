@@ -1,0 +1,23 @@
+<!DOCTYPE discography [
+
+<!ELEMENT album
+(info,tracklist)>
+
+<!ELEMENT info
+(title,price,year)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT tracklist
+(track)>
+
+<!ELEMENT track
+(number,title,length)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+]>

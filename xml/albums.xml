@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "../dtd/albums.dtd">
+<?xml-stylesheet type="text/css" href="../css/albums.css"?>
+<discography>
+    <album explicit="true">
+        <info>
+            <title>DAMN.</title>
+            <price>10</price>
+            <year>2017</year>
+        </info>
+        <tracklist>
+            <track>
+                <number>1</number>
+                <title>BLOOD.</title>
+                <length>1:58</length>
+            </track>
+            <track>
+                <number>2</number>
+                <title>DNA.</title>
+                <length>3:06</length>
+            </track>
+            <track>
+                <number>3</number>
+                <title>YAH.</title>
+                <length>2:40</length>
+            </track>
+            <track>
+                <number>4</number>
+                <title>ELEMENT.</title>
+                <length>3:29</length>
+            </track>
+            <track>
+                <number>5</number>
+                <title>FEEL.</title>
+                <length>3:35</length>
+            </track>
+            <track>
+                <number>6</number>
+                <title>LOYALTY</title>
+                <length>3:47</length>
+            </track>
+            <track>
+                <number>7</number>
+                <title>PRIDE.</title>
+                <length>4:35</length>
+            </track>
+            <track>
+                <number>8</number>
+                <title>HUMBLE.</title>
+                <length>2:57</length>
+            </track>
+            <track>
+                <number>9</number>
+                <title>LUST.</title>
+                <length>5:08</length>
+            </track>
+            <track>
+                <number>10</number>
+                <title>LOVE.</title>
+                <length>3:33</length>
+            </track>
+            <track>
+                <number>11</number>
+                <title>XXX.</title>
+                <length>4:14</length>
+            </track>
+            <track>
+                <number>12</number>
+                <title>FEAR.</title>
+                <length>7:41</length>
+            </track>
+            <track>
+                <number>13</number>
+                <title>GOD.</title>
+                <length>4:09</length>
+            </track>
+            <track>
+                <number>14</number>
+                <title>DUCKWORTH.</title>
+                <length>4:09</length>
+            </track>
+        </tracklist>
+    </album>
+    <album explicit="true">
+        <info>
+            <title>To Pimp a Butterfly</title>
+            <price>10</price>
+            <year>2015</year>
+        </info>
+        <tracklist>
+            <track>
+                <number>1</number>
+                <title>Wesley's Theory</title>
+                <length>4:47</length>
+            </track>
+            <track>
+                <number>2</number>
+                <title>For Free? (Interlude)</title>
+                <length>2:10</length>
+            </track>
+            <track>
+                <number>3</number>
+                <title>King Kunta</title>
+                <length>3:54</length>
+            </track>
+            <track>
+                <number>4</number>
+                <title>Institutionalized</title>
+                <length>4:31</length>
+            </track>
+            <track>
+                <number>5</number>
+                <title>These Walls</title>
+                <length>5:00</length>
+            </track>
+            <track>
+                <number>6</number>
+                <title>u</title>
+                <length>3:47</length>
+            </track>
+            <track>
+                <number>7</number>
+                <title>Alright</title>
+                <length>3:39</length>
+            </track>
+            <track>
+                <number>8</number>
+                <title>For Sale? (Interlude)</title>
+                <length>2:57</length>
+            </track>
+            <track>
+                <number>9</number>
+                <title>Momma</title>
+                <length>4:43</length>
+            </track>
+            <track>
+                <number>10</number>
+                <title>Hood Politics</title>
+                <length>4:52</length>
+            </track>
+            <track>
+                <number>11</number>
+                <title>How Much a Dollar Cost</title>
+                <length>4:21</length>
+            </track>
+            <track>
+                <number>12</number>
+                <title>Complexion (A Zulu Love)</title>
+                <length>4:23</length>
+            </track>
+            <track>
+                <number>13</number>
+                <title>The Blacker the Berry</title>
+                <length>5:28</length>
+            </track>
+            <track>
+                <number>14</number>
+                <title>You Ain't Gotta lie (Momma Said)</title>
+                <length>4:01</length>
+            </track>
+            <track>
+                <number>15</number>
+                <title>i</title>
+                <length>5:36</length>
+            </track>
+            <track>
+                <number>16</number>
+                <title>Mortal Man</title>
+                <length>12:07</length>
+            </track>
+        </tracklist>
+    </album>
+</discography>
