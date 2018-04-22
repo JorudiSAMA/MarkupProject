@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<xs:schema>
+
+    <xs:element name="album">
+        <xs:complexType>
+        <xs:restriction base="xs:integer">
+            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+        </xs:restriction>
+        <xs:attribute name="explicit" type="xs:boolean"/>
+            <xs:sequence>
+                <xs:element name="info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="price" type="xs:string"/>
+                            <xs:element name="year" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="tracklist">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="track" maxOccurs="20">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="number" type="xs:string"/>
+                                        <xs:element name="title" type="xs:string"/>
+                                        <xs:element name="length" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

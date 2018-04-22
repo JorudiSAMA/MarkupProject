@@ -1,5 +1,8 @@
 <!DOCTYPE discography [
 
+<!ATTLIST album id ID>
+<!ATTLIST album explicit CDATA>
+
 <!ELEMENT album
 (info,tracklist)>
 
