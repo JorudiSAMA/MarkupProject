@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Codi per Jordi Casesnoves Martin> -->
+
 <!DOCTYPE note SYSTEM "../dtd/albums.dtd">
 <?xml-stylesheet type="text/css" href="../xml_css/album1.css"?>
 <album explicit="true" id="1" 
@@ -84,8 +86,12 @@
     </tracklist>
     <rss version="2.0">
         <channel>
+        <title>Kendrick Lamar RSS</title>
+            <link>http://www.kendricklamar.com</link>
+        <poster></poster>
             <item>
                 <title>KENDRICK LAMAR MAKES HISTORY, WINS PULITZER PRIZE FOR ‘DAMN.’</title>
+                <posterimage></posterimage>
                 <description>Kendrick Lamar has made history (again) by becoming the first non-classical or jazz artist to win a prestigious Pulitzer Prize.</description>
                 <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
                 <link>https://www.w3schools.com/xml/xml_rss.asp</link>
@@ -102,8 +108,7 @@
                 <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
                 <link>http://www.kendricklamar.com</link>
             </item>
-            <title>Kendrick Lamar RSS</title>
-            <link>http://www.kendricklamar.com</link>
+            
         </channel>
     </rss>
 </album>

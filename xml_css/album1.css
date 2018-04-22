@@ -81,11 +81,17 @@ rss > channel > item{
     padding: 20px;
 }
 
-rss > channel > item > title,link, guid, pubDate, description{
+rss > channel > item > title,link, guid, pubDate, description, posterimage{
     display: block;
     padding: 10px;
 }
 
 rss > channel > item > title{
     font-size: 32px;
+}
+
+rss > channel > item > posterimage{
+    background-image: url('http://cdn1-www.musicfeeds.com.au/assets/uploads/Kendrick-Weeknd-671x377.jpg');
+    height: 300px;
+    width: 600px;
 }
