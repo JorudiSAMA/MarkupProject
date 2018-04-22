@@ -1,14 +1,11 @@
-<?xml version="1.0"?>
-
-<xs:schema>
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="album">
         <xs:complexType>
-        <xs:restriction base="xs:integer">
             <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
-        </xs:restriction>
-        <xs:attribute name="explicit" type="xs:boolean"/>
-            <xs:sequence>
+            <xs:attribute name="explicit" type="xs:boolean"/>
+            
                 <xs:element name="info">
                     <xs:complexType>
                         <xs:sequence>
@@ -21,20 +18,32 @@
                 <xs:element name="tracklist">
                     <xs:complexType>
                         <xs:all>
-                            <xs:element name="track" maxOccurs="20">
+                            <xs:element name="track" maxOccurs="30">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="number" type="xs:string"/>
+                                        <xs:element name="number">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="1"/>
+                                                    <xs:maxInclusive value="30"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="title" type="xs:string"/>
-                                        <xs:element name="length" type="xs:string"/>
+                                        <xs:element name="length">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[0-9]:[0-9][0-9]"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
                         </xs:all>
                     </xs:complexType>
                 </xs:element>
-            </xs:sequence>
+            
         </xs:complexType>
     </xs:element>
-
 </xs:schema>
