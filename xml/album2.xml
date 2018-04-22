@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "../dtd/albums.dtd">
-<?xml-stylesheet type="text/css" href="../xml_css/albums.css"?>
+<?xml-stylesheet type="text/css" href="../xml_css/album2.css"?>
 
 <album explicit="true" id="2" 
     xmlns="https://www.w3schools.com" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="../xml_schema/albums.xsd">
+    <poster></poster>
     <info>
         <title>To Pimp a Butterfly</title>
         <price>10</price>

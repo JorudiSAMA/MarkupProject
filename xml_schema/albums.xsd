@@ -5,7 +5,7 @@
         <xs:complexType>
             <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
             <xs:attribute name="explicit" type="xs:boolean"/>
-            
+            <xs:element name="poster"/>
                 <xs:element name="info">
                     <xs:complexType>
                         <xs:sequence>

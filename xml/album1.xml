@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "../dtd/albums.dtd">
-<?xml-stylesheet type="text/css" href="../xml_css/albums.css"?>
-
+<?xml-stylesheet type="text/css" href="../xml_css/album1.css"?>
 <album explicit="true" id="1" 
     xmlns="https://www.w3schools.com" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="../xml_schema/albums.xsd">
+    <poster></poster>
     <info>
         <title>DAMN.</title>
         <price>10</price>
@@ -82,4 +82,28 @@
             <length>4:09</length>
         </track>
     </tracklist>
+    <rss version="2.0">
+        <channel>
+            <item>
+                <title>KENDRICK LAMAR MAKES HISTORY, WINS PULITZER PRIZE FOR ‘DAMN.’</title>
+                <description>Kendrick Lamar has made history (again) by becoming the first non-classical or jazz artist to win a prestigious Pulitzer Prize.</description>
+                <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
+                <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+            </item>
+            <item>
+                <title>KENDRICK LAMAR DROPS NEW SONG ‘PRAY FOR ME’ WITH THE WEEKND</title>
+                <description>Lamar is curating the soundtrack for new Marvel film Black Panther and he’s already dropped new songs with SZA and Jay Prince.</description>
+                <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
+                <link>http://www.kendricklamar.com</link>
+            </item>
+            <item>
+                <title>WATCH KENDRICK LAMAR OPEN THE GRAMMYS WITH U2 DAVE CHAPPELLE</title>
+                <description>Kendrick Lamar has opened the 2018 Grammy Awards with a fiery performance at New York’s Madison Square Garden.</description>
+                <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
+                <link>http://www.kendricklamar.com</link>
+            </item>
+            <title>Kendrick Lamar RSS</title>
+            <link>http://www.kendricklamar.com</link>
+        </channel>
+    </rss>
 </album>
