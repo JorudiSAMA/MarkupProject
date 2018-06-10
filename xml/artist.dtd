@@ -1,0 +1,22 @@
+<!ELEMENT artist (image1, info, description, image2)>
+<!ELEMENT image1 (#PCDATA)>
+<!ELEMENT info (name, born, age, genres, activity-period, related-artists, email)>
+<!ATTLIST info
+          category CDATA #IMPLIED
+          id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+          full-name CDATA #REQUIRED>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT genres (#PCDATA)>
+<!ELEMENT activity-period (#PCDATA)>
+<!ELEMENT related-artists (related-artist+)>
+<!ATTLIST related-artists
+          full-list CDATA #REQUIRED>
+<!ELEMENT related-artist (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+          active CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image2 (#PCDATA)>

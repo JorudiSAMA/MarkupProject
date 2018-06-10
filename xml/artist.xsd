@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="artist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image1"/>
+        <xs:element ref="info"/>
+        <xs:element ref="description"/>
+        <xs:element ref="image2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="image1" type="xs:string"/>
+
+  <xs:element name="info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="born"/>
+        <xs:element ref="age"/>
+        <xs:element ref="genres"/>
+        <xs:element ref="activity-period"/>
+        <xs:element ref="related-artists"/>
+        <xs:element ref="email"/>
+      </xs:sequence>
+      <xs:attribute name="category" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="description" type="xs:string"/>
+
+  <xs:element name="image2" type="xs:string"/>
+
+  <xs:element name="name">
+    <xs:complexType>
+      <xs:attribute name="full-name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="born" type="xs:string"/>
+
+  <xs:element name="age" type="xs:string"/>
+
+  <xs:element name="genres" type="xs:string"/>
+
+  <xs:element name="activity-period" type="xs:string"/>
+
+  <xs:element name="related-artists">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element ref="related-artist"/>
+      </xs:sequence>
+      <xs:attribute name="full-list" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="email">
+    <xs:complexType>
+      <xs:attribute name="active" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="related-artist" type="xs:string"/>
+
+</xs:schema>

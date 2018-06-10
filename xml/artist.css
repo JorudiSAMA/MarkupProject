@@ -1,0 +1,107 @@
+artist{
+    background: #FF416C;  /* Para antiguos navegadores */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+image1{
+    display: block;
+    margin: auto;
+    height: 300px;
+    background-image: url('../img/kendrick1.jpg');
+}
+
+image2{
+    display: block;
+    margin: auto;
+    height: 300px;
+    background-image: url('../img/portrait1.jpeg');
+    margin-top: 64px;
+}
+
+info > *{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    padding: 20px 0;
+    width: 400px;
+}
+
+info:before{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 32px;
+    padding: 24px;
+    text-transform: capitalize;
+    content: 'Category: ' attr(category);
+    color: grey;
+    background-color: white;
+    font-size: 32px;
+    border: 2px solid white;
+    float: left;
+    border-radius: 24px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+info > name {
+    margin-top: 32px;
+}
+
+info > name:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'name: '
+}
+
+info > born:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'born in: '
+}
+
+info > age:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'age: '
+}
+
+info > genres:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'genres: '
+}
+
+info > activity-period:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'activity period: '
+}
+
+info > related-artists:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    content: 'related artists: '
+}
+
+info > related-artists > related-artist {
+    display: block;
+    margin-top: 8px;
+}
+
+info > related-artists > related-artist:before {
+    content: '- '
+}
+
+info > email:before{
+    font-size: 32px;
+    text-transform: capitalize;
+    display: block;
+    content: 'email: ';
+}
+
+
+

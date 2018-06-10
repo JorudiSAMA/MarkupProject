@@ -21,10 +21,13 @@
   <!--CSS'S PROPIOS DE ESTA PAGINA-->
   <link href="../css/discography.css" rel="stylesheet" type="text/css">
 
+  <!-- JavaScript-->
+  <script src="../js/discography.js"></script>
+
   <title>KENDRICK LAMAR</title>
 </head>
 
-<body>
+<body id="cos">
 
   <nav>
     <ul>
@@ -47,7 +50,7 @@
   </nav>
 
   <div class="wrapper">
-    <div class="page-inner">
+    <div class="page-inner" id="page-inner">
       <table>
         <tr>
           <td>
@@ -74,9 +77,7 @@
           </td>
 
           <td>
-            <a href="../xml/album2.xml">
             <img src="../img/album3.jpg" alt="description here" />
-            </a>
             <br />
             <h1>To Pimp A Butterfly</h1>
             <h2>Monday, March 16, 2015</h2>
@@ -123,35 +124,41 @@
 
   </div>
   <footer>
-    <div class="footer">
-      KENDRICK LAMAR
-      <div class="social">
-        <ul>
-          <li>
-            <a href="https://twitter.com/kendricklamar">
-              <img src="../svg/twitter.svg">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/kendricklamar/">
-              <img src="../svg/facebook.svg">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/kendricklamar">
-              <img src="../svg/instagram.svg">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/KendrickLamarVEVO">
-              <img src="../svg/youtube.svg">
-            </a>
-          </li>
-        </ul>
+      <div class="footer">
+        KENDRICK LAMAR
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://twitter.com/kendricklamar">
+                <img src="../svg/twitter.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/kendricklamar/">
+                <img src="../svg/facebook.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kendricklamar">
+                <img src="../svg/instagram.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/KendrickLamarVEVO">
+                <img src="../svg/youtube.svg">
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <br>
+              Current Time:<br>
+              <span id="data">00/00/0000 00:00:00</span>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-  </footer>
+    </footer>
 
 </body>
 

@@ -1,0 +1,26 @@
+<!ELEMENT album (poster, info, extrainfo, tracklist, poster2, rss)>
+<!ATTLIST album
+          id CDATA #IMPLIED>
+<!ELEMENT poster (#PCDATA)>
+<!ELEMENT info (title, price, year)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT extrainfo (#PCDATA)>
+<!ATTLIST extrainfo identificador ID #REQUIRED>
+<!ELEMENT tracklist (track+)>
+<!ATTLIST tracklist
+          full CDATA #REQUIRED>
+<!ELEMENT track (number, title, length)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT poster2 (#PCDATA)>
+<!ELEMENT rss (channel)>
+<!ATTLIST rss
+          version CDATA #REQUIRED>
+<!ELEMENT channel (title, link, item+)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT item (title, posterimage?, description, pubDate, link)>
+<!ELEMENT posterimage (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>

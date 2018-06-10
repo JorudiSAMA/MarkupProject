@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="artist.css"?>
+<!-- Document creat per Jordi Casesnoves Martin-->
+<!DOCTYPE artist SYSTEM "artist.dtd">
+<artist>
+    <image1></image1>
+    <info category="rap" id="kendricklamar">
+        <name full-name="true">Kendrick Lamar Duckworth</name>
+        <born>June 17, 1987, Compton, LA, California, US</born>
+        <age>30</age>
+        <genres>Hip Hop</genres>
+        <activity-period>2003 - Now</activity-period>
+        <related-artists full-list="false">
+            <related-artist>Black Hippy</related-artist>
+            <related-artist>Dr. Dre</related-artist>
+            <related-artist>J. Cole</related-artist>
+            <related-artist>Ash Riser</related-artist>
+        </related-artists>
+        <email active="true"><![CDATA[kendricklamar@gmail.com]]></email>
+    </info>
+    <description></description>
+    <image2></image2>
+</artist>

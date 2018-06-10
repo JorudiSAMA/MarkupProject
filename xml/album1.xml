@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Codi per Jordi Casesnoves Martin> -->
-
-<!DOCTYPE note SYSTEM "../dtd/albums.dtd">
-<?xml-stylesheet type="text/css" href="../xml_css/album1.css"?>
-<album explicit="true" id="1" 
-    xmlns="https://www.w3schools.com" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="../xml_schema/albums.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="album1.css"?>
+<!-- Document creat per Jordi Casesnoves Martin-->
+<!DOCTYPE album SYSTEM "album1.dtd">
+<album id="1">
     <poster></poster>
     <info>
         <title>DAMN.</title>
         <price>10</price>
         <year>2017</year>
     </info>
-    <tracklist>
+    <extrainfo identificador="kendrick"></extrainfo>
+    <tracklist full="true">
         <track>
             <number>1</number>
             <title>BLOOD.</title>
@@ -84,11 +82,12 @@
             <length>4:09</length>
         </track>
     </tracklist>
+    <poster2></poster2>
     <rss version="2.0">
         <channel>
         <title>Kendrick Lamar RSS</title>
             <link>http://www.kendricklamar.com</link>
-        <poster></poster>
+        
             <item>
                 <title>KENDRICK LAMAR MAKES HISTORY, WINS PULITZER PRIZE FOR ‘DAMN.’</title>
                 <posterimage></posterimage>
@@ -108,7 +107,6 @@
                 <pubDate> Jan 11 2018 00:15:30 GMT</pubDate>
                 <link>http://www.kendricklamar.com</link>
             </item>
-            
         </channel>
     </rss>
 </album>

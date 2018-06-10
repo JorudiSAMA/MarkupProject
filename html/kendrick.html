@@ -21,10 +21,13 @@
   <!--CSS'S PROPIOS DE ESTA PAGINA-->
   <link href="../css/kendrick.css" rel="stylesheet" type="text/css">
 
+  <!-- JavaScript-->
+  <script src="../js/kendrick.js"></script>
+
   <title>KENDRICK LAMAR</title>
 </head>
 
-<body>
+<body id="cos">
 
   <nav>
     <ul>
@@ -46,8 +49,11 @@
     </ul>
   </nav>
 
-
   <div class="wrapper">
+    <div id="banner">
+      <h3 id="banner_title">DAMN.</h3>
+    </div>
+
     <div class="container1">
       <div class="container_img">
         <img id="portrait1" src="../img/portrait.png" alt="portrait">
@@ -76,11 +82,18 @@
           <li>Kendrick has won seven Grammy Awards to date, and has received 22 nominations.</li>
           <li>Kendrick attended the same school as Dr. Dre.</li>
           <li>'DAMN.' saw Kendrick introduce his new alter ego, Kung Fu Kenny.</li>
-          <li>Lady Gaga is a big fan of him.</li>
+          <li id="tooltip">Lady Gaga is a big fan of him.</li>
           <li>He wanted to be Michael Jordan when he was young.</li>
           <li>His fourth studio album 'DAMN.' earned him his third consecutive number-one album in the US.</li>
+          <li>
+            <button>
+              <a href="../xml/artist.xml">Versió XML</a>
+            </button>
+          </li>
         </ul>
       </div>
+
+
       <div class="container_img">
         <img id="portrait2" src="../img/portrait2.png" alt="portrait">
       </div>
@@ -113,9 +126,15 @@
             </a>
           </li>
         </ul>
+        <ul>
+          <li>
+            <br> Current Time:
+            <br>
+            <span id="data">00/00/0000 00:00:00</span>
+          </li>
+        </ul>
       </div>
     </div>
-
   </footer>
 
 </body>

@@ -25,6 +25,13 @@ poster{
     background-image: url('../img/album1.jpg');
 }
 
+poster2{
+    display: block;
+    margin: auto;
+    height: 300px;
+    background-image: url('../img/portrait.png');
+}
+
 info{
     width: 100%;
     background-color: red;
@@ -36,6 +43,12 @@ info{
     color: white;
 }
 
+tracklist > *{
+    background-color: pink;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 info > price:after{
     content: '$';

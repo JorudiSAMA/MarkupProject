@@ -39,3 +39,9 @@
 .social img:hover{
     transform: scale(1.5);
 }
+
+#data{
+    padding: 16px;
+    float: right;
+    color:white;
+  }

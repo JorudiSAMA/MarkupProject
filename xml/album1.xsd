@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="album">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="poster"/>
+        <xs:element ref="info"/>
+        <xs:element ref="extrainfo"/>
+        <xs:element ref="tracklist"/>
+        <xs:element ref="poster2"/>
+        <xs:element ref="rss"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="poster" type="xs:string"/>
+
+  <xs:element name="info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="price"/>
+        <xs:element ref="year"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="extrainfo">
+    <xs:complexType>
+      <xs:attribute name="identificador" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="tracklist">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element ref="track"/>
+      </xs:sequence>
+      <xs:attribute name="full" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="poster2" type="xs:string"/>
+
+  <xs:element name="rss">
+    <xs:complexType>
+      <xs:element ref="channel"/>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="title" type="xs:string"/>
+
+  <xs:element name="price" type="xs:string"/>
+
+  <xs:element name="year" type="xs:string"/>
+
+  <xs:element name="track">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="number"/>
+        <xs:element ref="title"/>
+        <xs:element ref="length"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="number" type="xs:string"/>
+
+  <xs:element name="length" type="xs:string"/>
+
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="link"/>
+        <xs:sequence maxOccurs="unbounded">
+          <xs:element ref="item"/>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="link" type="xs:string"/>
+
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="posterimage"/>
+        </xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element ref="pubDate"/>
+        <xs:element ref="link"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="posterimage" type="xs:string"/>
+
+  <xs:element name="description" type="xs:string"/>
+
+  <xs:element name="pubDate" type="xs:string"/>
+
+</xs:schema>
